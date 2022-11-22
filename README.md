@@ -1,5 +1,6 @@
 # AlertLetter
 <h2>💡프로젝트 소개</h2>
+<img width="435" alt="스크린샷 2022-11-22 16 34 05" src="https://user-images.githubusercontent.com/62044613/203252821-eb346b80-29c5-4c6a-aef7-ffdca1d24cd5.png">
 
 ✍🏻프로젝트 개요 및 동기 
 
