@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GangwonEdu_OTFBoldA';
+    margin: auto;
+    background-color: skyblue;
+    text-align: center;
+}
+
+
+button,
+button:focus {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.letterIn {
+    position: absolute;
+    
+    width: 400px;
+    height: 700px;
+    top: 250px;
+    left: 350px;
+    background-color: beige;
+    display: none;
+}
+
+.blur {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.letterIn.open{
+    display: block;
+}
+
+.letterClose {
+    color: yellowgreen;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.letterClose:hover{
+    transform: scale(1.1);
+    
+}
+.sticker{
+    padding: 0;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.letterOut{
+    /* margin-top: 300px; */
+    transition: all 300ms ease-in-out;
+}
+
+.letterOut.close{
+    display: none;
+}
+
+
+.letterOut:hover{
+    transform: scale(1.1);
+}
+
+
+.letterPaperOuter {
+    width: 250px;
+}
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 768px){
+    .letterOut{
+        /* margin-top: 250px; */
+        transition: all 300ms ease-in;
+    }
+    
+    .letterIn {
+        position: absolute;
+        width: 320px;
+        height: 730px;
+        top: 60px;
+        left: 35px;
+        background-color: beige;
+        display: none;
+    }
+    .letter .open{
+        display: block;
+    }
+
+    .letterClose {
+        color: yellowgreen;
+        font-size: 20px;
+        margin-left: 265px;
+        margin-top: 5px;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+    }
+}
+
+@media screen and (min-width: 735px){
+    .letterPaperOuter {
+        width: 400px;
+    }
+
+    .letterOut{
+        /* margin-top: 300px; */
+        transition: all 300ms ease-in;
+    }
+    .letterIn {
+        position: absolute;
+        width: 400px;
+        height: 730px;
+        top: 100px;
+        left: 150px;
+        background-color: beige;
+        display: none;
+    }
+
+    .letterClose {
+        color: yellowgreen;
+        font-size: 20px;
+        margin-left: 365px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+    .letterOut{
+        /* margin-top: 300px; */
+        transition: all 300ms ease-in;
+    }
+    .letterIn {
+        position: absolute;
+        width: 400px;
+        height: 750px;
+        top: 100px;
+        left: 650px;
+        background-color: beige;
+        display: none;
+    }
+
+    .letterClose {
+        color: yellowgreen;
+        font-size: 20px;
+        margin-left: 365px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+    }
+}
