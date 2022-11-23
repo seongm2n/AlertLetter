@@ -12,6 +12,11 @@
 
 • 모든게 수작업 (핸드메이드)
 
+📺 GIF 📺
+
+![kong](https://user-images.githubusercontent.com/62044613/203457967-d56d0b05-0a83-4ee4-8410-579424455106.gif)
+
+
 🎀 기술 스택 🎀 
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/> 
